@@ -1,0 +1,31 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: studio_dev
+  pool: 5
+  username: avi
+  password: avi@singh
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: studio_test
+  pool: 5
+  username: avi
+  password: avi@singh
+
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: d5a554qjo8ubci
+#   pool: 5
+#   username: volqkjgezgcddb
+#   password: w6D3XofgnVxFH9NIffJBxhJCid
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: studio_prod
+  pool: 5
+  username: avi
+  password: avi@singh
